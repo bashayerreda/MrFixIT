@@ -1,0 +1,296 @@
+<resources>
+    <string name="app_name">Fixawy</string>
+    <string name="electricity">Electrician</string>
+    <string name="plumber">Plumber</string>
+    <string name="carpenter">Carpenter</string>
+    <string name="painter">Painter</string>
+    <string name="tilesHandyman">Tiles Handyman</string>
+    <string name="mason">Mason</string>
+    <string name="smith">Smith</string>
+    <string name="parquet">Parquet</string>
+    <string name="gypsum">Gypsum</string>
+    <string name="marble">Marble</string>
+    <string name="alumetal">Alumetal</string>
+    <string name="glasses">Glasss</string>
+    <string name="woodPainter">Wood Painter</string>
+    <string name="curtains">Curtains</string>
+    <string name="satellite">Satellite</string>
+    <string name="Appliances">Appliances Maintenance</string>
+
+    <string-array name="categories">
+        <item>Electrician</item>
+        <item>Plumber</item>
+        <item>Carpenter</item>
+        <item>Painter</item>
+        <item>Tiles Handyman</item>
+        <item>Mason</item>
+        <item>Smith</item>
+        <item>Parquet</item>
+        <item>Gypsum</item>
+        <item>Marble</item>
+        <item>Alumetal</item>
+        <item>Glasss</item>
+        <item>Wood Painter</item>
+        <item>Curtains</item>
+        <item>Satellite</item>
+        <item>Appliances Maintenance</item>
+    </string-array>
+
+    <string name="category">Categories</string>
+    <string name="worker">Worker</string>
+    <string name="client">Client</string>
+    <string name="language">English</string>
+    <string name="select_membership">Select Your Membership Type</string>
+    <string name="make_order">Make Order</string>
+    <string name="show_all_worker">Show All Workers</string>
+    <string name="ask_question">Ask Questions</string>
+    <string name="edit">Edit</string>
+    <string name="typeOrder">Type Of Order</string>
+    <string name="easy">Easy Job</string>
+    <string name="hard">Hard Job</string>
+    <string name="more_details">More Details</string>
+    <string name="description_of_the_problem">Description of the problem</string>
+    <string name="location">Location</string>
+    <string name="your_location">Your Location</string>
+    <string name="your_phone">Your Phone</string>
+    <string name="phone">Phone</string>
+    <string name="update">Update</string>
+    <string name="home">Home</string>
+    <string name="requested">Requested</string>
+    <string name="previous">Previous Requested</string>
+    <string name="chat">Chat</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="proccessing">Processing</string>
+    <string name="selected">Applicants</string>
+    <string name="jobs">Jobs</string>
+    <string name="likes">Likes</string>
+    <string name="dislikes">Dislikes</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="history">History</string>
+    <string name="done_by">Done By</string>
+    <string name="ok">OK</string>
+    <string name="make_post">Make Post</string>
+    <string name="hi">Hi,</string>
+    <string name="what_question">What is your question?</string>
+    <string name="what_mind">What is on your mind?</string>
+    <string name="post">Post</string>
+    <string name="select_job">Select Job</string>
+    <string name="your_question">Your Questions</string>
+    <string name="Next">Next</string>
+    <string name="dontHaveAccount">Do not Have Account?</string>
+    <string name="alreadyHaveAccount">Already Have Account?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Finish">Finish</string>
+    <string name="Maintenance">Maintenance and repair</string>
+    <string name="Job">Hard Job</string>
+    <string name="working">less than 1 hour work</string>
+    <string name="littlework">"More than 1 hour to repair "</string>
+    <string name="ordertype">Type Of Order</string>
+    <string name="Details">More Details</string>
+    <string name="Location">Location</string>
+    <string name="Phone">Phone</string>
+    <string name="api_key">AIzaSyCVOvMSNN18_AJKQjfKfoWKxsYNF5GNxK0</string>
+    <string name="Payment">Payment Way</string>
+    <string name="Cash">Cash</string>
+    <string name="PayPal">PayPal</string>
+    <string name="Credit">Credit Card</string>
+    <string name="CheckOut">CheckOut Process</string>
+
+
+    <string name="updatePassword">Update Password</string>
+    <string name="sendCode">Send Code</string>
+    <string name="statue">Statue</string>
+    <string name="login">Login</string>
+    <string name="signUp">SignUp</string>
+    <string name="email">Email</string>
+    <string name="userName">UserName</string>
+    <string name="address">Address</string>
+    <string name="password">Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirmPassword">ConfirmPassword</string>
+    <string name="forgetPassword">Forget Password?</string>
+    <string name="or">Or</string>
+    <string name="code">Code</string>
+    <string name="next">Next</string>
+    <!-- Settings Screen -->
+    <string name="personal_info">Personal Info</string>
+    <string name="additional_info">Additional Info</string>
+    <string name="birth_date">DOB</string>
+    <string name="re_password">Repeat password</string>
+    <string name="apply">Apply</string>
+    <!-- Worker Setting Screen -->
+    <string-array name="jobs_names">
+        <item>Jobs</item>
+        <item>Electrician</item>
+        <item>Plumber</item>
+        <item>Carpenter</item>
+        <item>Painter</item>
+        <item>Tiles Handyman</item>
+        <item>Wood Painter</item>
+    </string-array>
+    <string name="Jobs">--Job--</string>
+    <!--Navigation-->
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="prev_questions">Prev Questions</string>
+
+
+    <string name="done_with_rating">done rating</string>
+    <string name="job_address">job address</string>
+    <string name="type_of_job">job address</string>
+    <string name="emp_name">job address</string>
+
+
+    <string name="my_previous_question">My Previous Question</string>
+
+    <string name="Update">Update Order</string>
+    <string name="work">another work</string>
+
+
+    <string name="reply_questions">Replies</string>
+    <string name="add_your_reply">Add Your Reply</string>
+    <string name="write_your_reply">Write Your Reply</string>
+    <string name="add">Add</string>
+    <string name="reply_from">Reply from : </string>
+    <string name="reply">Reply : </string>
+    <string name="Title" translatable="false">job Title</string>
+    <string name="commentOfReply">Comments</string>
+    <string name="comment">Comment</string>
+
+
+    <!--Facebook authentication-->
+    <!--    <string name="facebook_app_id">313952036784410</string>-->
+    <!--    <string name="fb_login_protocol_scheme">fb313952036784410</string>-->
+
+    <string name="selected_worker">Selected Worker</string>
+
+    <string name="accepted_job">Your Accept Jobs</string>
+
+    <string name="previous_Job">Your Previous Jobs</string>
+
+    <string name="profile">Profile</string>
+    <string name="UserName">UserName</string>
+    <string name="requestedusername">User Name</string>
+    <string name="requestdesc">description</string>
+    <string name="editusername">User Name</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Client_name">Client Name</string>
+    <string name="Client_phone">Client Phone</string>
+    <string name="Worker_name">Worker Name</string>
+    <string name="Worker_Name">Worker Name</string>
+    <string name="worker_phone">Worker Phone</string>
+    <string name="w_category">Worker Category</string>
+    <string name="MR_FIX_IT">MR.FIX.IT</string>
+    <string name="maintanance"><![CDATA["maintenance & repair "]]></string>
+    <string name="hard_work">Hard Work</string>
+
+
+    <!--ShopOwner-->
+    <string name="shopName">shop Name</string>
+    <string name="shopOwner">Shop Owner</string>
+    <string name="all_shops">Show All Shops</string>
+    <string name="allShops">All Shops</string>
+    <string name="products">Products</string>
+    <string name="my_products">My Products</string>
+    <string name="select_shop">Choose Shop</string>
+    <string name="enterProductName">Enter Product Name</string>
+    <string name="enterPrice">Enter Price</string>
+    <string name="addDescOfProduct">Add Desc Of Product</string>
+    <string name="nameOfProduct">Name Of Product :</string>
+    <string name="productName">ProductName</string>
+    <string name="priceOfProduct">Price Of Product   :</string>
+    <string name="productPrice">ProductPrice</string>
+    <string name="productDescription">ProductDescription</string>
+    <string name="logoutDialog">Do you want to logout?</string>
+
+    <!--Shops-->
+    <string name="electrical_shop">Electrical Shops</string>
+    <string name="plumbing_shop">Plumbing Shops</string>
+    <string name="Carpentry_shop">Carpentry Shops</string>
+    <string name="paint_shop">Paint Shops</string>
+    <string name="tile_shop">Tile Shops</string>
+    <string name="Building_tools_shop">Building Tools Shops</string>
+    <string name="metal_shop">Metal Shops</string>
+    <string name="Parquet_shop">Parquet Shops</string>
+    <string name="gypsum_shop">Gypsum Shops</string>
+    <string name="marble_shop">Marble Shops</string>
+    <string name="Alumetal_shop">Alumetal Shops</string>
+    <string name="eyeglasses_shop">Eyeglasses Shops</string>
+    <string name="wooden_tool_shop">Wooden Tool Shops</string>
+    <string name="curtain_shop">Curtain Shops</string>
+    <string name="satellite_store">Satellite Stores</string>
+    <string name="application_companies">Application Companies</string>
+
+
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        FCM registration token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+
+
+    <string name="nodata">No data available now</string>
+    <string name="Worker_rating_name">Worker Name</string>
+    <string name="jobs_num">jobs_num</string>
+    <string name="job">job</string>
+    <string name="Likes">Likes</string>
+    <string name="dislike">dislike</string>
+    <string name="address_w">address</string>
+    <string name="phone_w">phone</string>
+    <string name="Accept">Accept</string>
+
+    <string name="All_pervious_questions">All Pervious Questions</string>
+    <string name="Change_password">Change Password</string>
+    <string name="Accept_details">Details</string>
+    <string name="Maintanance_repair">Maintanance and Repair</string>
+    <string name="description">description</string>
+    <string name="hint_location">more about location</string>
+    <string name="phone_details">phone details</string>
+    <string name="Time">Time</string>
+    <string name="time_hint">time</string>
+    <string name="Date">Date</string>
+    <string name="payment_hint">payment hint</string>
+    <string name="Phone_reset_pass">Phone For Reset Password</string>
+    <string name="add_phone">add phone</string>
+    <string name="Previous_question">Previous Questions</string>
+    <string name="comment_worker_hint">Comment your worker</string>
+    <string name="Receive_Code">Receive Code</string>
+    <string name="Previous_btn">Previous</string>
+    <string name="Replay_to">Replay to :</string>
+    <string name="Question">Question :</string>
+    <string name="Are_you_sure_you_want_delete_item">Are you sure you want delete item ?</string>
+    <string name="Delete">Delete</string>
+    <string name="another_phone">another phone</string>
+
+    <string name="distance">The Distance</string>
+    <string name="map">Do You want open map ?</string>
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="caller">caller\'s Name</string>
+    <string name="income_call">Incoming Call</string>
+    <string name="Dismiss">Dismiss</string>
+    <string name="Start">Start</string>
+
+    <string name="done">Done</string>
+
+    <string name="accept_msg">Wait for the worker at the appointed time</string>
+    <string name="accept_worker_msg">Wait the client for accept your request</string>
+
+    <string name="oldpassword">Old password</string>
+    <string name="add_your_comment">Add your comment</string>
+    <string name="write_your_comment">add your comment</string>
+    <string name="wrong">Wrong</string>
+    <string name="wrong_msg">You already make an order of this job</string>
+
+</resources>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">صلحلى</string>
+    <string name="electricity">كهربائى</string>
+    <string name="plumber">سباك</string>
+    <string name="carpenter">نجار</string>
+    <string name="painter">نقاش</string>
+    <string name="tilesHandyman">سيراميك</string>
+    <string name="mason">بناء</string>
+    <string name="smith">حداد</string>
+    <string name="parquet">باركيه</string>
+    <string name="gypsum">جبس</string>
+    <string name="marble">رخام</string>
+    <string name="alumetal">الوميتال</string>
+    <string name="glasses">زجاج</string>
+    <string name="woodPainter">استرجى</string>
+    <string name="curtains">ستائر</string>
+    <string name="satellite">صيانه دش</string>
+    <string name="Appliances">صيانه اجهزه منزليه</string>
+    <string name="category" >التخصصات</string>
+    <string name="worker">عامل</string>
+    <string name="client">عميل</string>
+    <string name="language">عريى</string>
+    <string name="select_membership">أختر نوع العضويه</string>
+    <string name="make_order">اجراء طلب</string>
+    <string name="show_all_worker">عرض جميع العاملين</string>
+    <string name="ask_question">اجراء سؤال</string>
+    <string name="edit">تعديل</string>
+    <string name="typeOrder">نوع الطلب</string>
+    <string name="easy">مهمه بسيطه</string>
+    <string name="hard">مهمه صعبه</string>
+    <string name="more_details">تفاصيل أكثر</string>
+    <string name="description_of_the_problem">تفاصيل اكثر عن المشكله</string>
+    <string name="location">العنوان</string>
+    <string name="your_location">موقعك</string>
+    <string name="your_phone">هاتفك</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="update">حفظ التعديلات</string>
+    <string name="home">الصفحه الرئيسيه</string>
+    <string name="requested">طلباتى</string>
+    <string name="previous">طلبات سابقه</string>
+    <string name="chat">رسائلى</string>
+    <string name="settings">الاعدادات</string>
+    <string name="logout">خروج</string>
+    <string name="proccessing">معالجه</string>
+    <string name="selected">المتقدمين للطلب</string>
+    <string name="jobs">وظيفه</string>
+    <string name="likes">اعجبنى</string>
+    <string name="dislikes">لم يعجبني</string>
+    <string name="cancel">الغاء</string>
+    <string name="accept">قبول</string>
+    <string name="history">طلبات سابقه</string>
+    <string name="done_by">تمت بواسطه</string>
+    <string name="ok">موافق</string>
+    <string name="make_post">اسال سؤالك</string>
+    <string name="hi">مرحبا</string>
+    <string name="what_question">ما هو سؤالك؟</string>
+    <string name="what_mind">اكتب سؤالك</string>
+    <string name="post">نشر</string>
+    <string name="select_job">اختر الوظيفه</string>
+    <string name="your_question">اسالتك</string>
+    <string name="dontHaveAccount">ليس لديك حساب؟</string>
+    <string name="alreadyHaveAccount">لدي حساب بالفعل؟</string>
+    <string name="navigation_drawer_open">افتح</string>
+    <string name="navigation_drawer_close">اغلق</string>
+
+
+    <string name="updatePassword">تعديل كلمة السر</string>
+    <string name="sendCode">ارسال الكود</string>
+    <string name="statue">الحالة</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="signUp">انشاء حساب</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="userName">اسم المستخدم</string>
+    <string name="address">العنوان</string>
+    <string name="password">كلمة السر</string>
+    <string name="newPassword">كلمة السر الجديدة</string>
+    <string name="confirmPassword">تأكيد كلمة السر</string>
+    <string name="forgetPassword">نسيت كلمة السر؟</string>
+    <string name="or">أو</string>
+    <string name="code">الكود</string>
+    <string name="next">التالي</string>
+
+    <!-- Settings Screen -->
+    <string name="personal_info">بيانات شخصية</string>
+    <string name="additional_info">بيانات اضافية</string>
+    <string name="birth_date">تاريخ الميلاد</string>
+    <string name="re_password">اعادة كلمة السر</string>
+    <string name="apply">تثبيت</string>
+    <string name="commentOfReply">التعليقات</string>
+    <string name="comment">التعليق</string>
+
+    <!-- Worker Setting Screen -->
+    <string-array name="jobs_names">
+        <item>المهن</item>
+        <item>كهربائي</item>
+        <item>سباك</item>
+        <item>نجار</item>
+        <item>عامل دهانات</item>
+        <item>Tiles Handyman</item>
+        <item>دهان موبيليات</item>
+    </string-array>
+    <string name="Jobs">--المهنة--</string>
+
+    <string name="hello_blank_fragment">اهلا من داخل هذا الجزء </string>
+    <string name="Finish">نهايه</string>
+    <string name="Maintenance">الصيانة والإصلاح</string>
+    <string name="Job">عمل صعب</string>
+    <string name="working">أقل من  ساعة عمل</string>
+    <string name="littlework">أكثر من ساعة للإصلاح </string>
+    <string name="ordertype">نوع الطلب</string>
+    <string name="Details">التفاصيل</string>
+    <string name="Location">الموقع</string>
+    <string name="Phone">الهاتف</string>
+    <string name="api_key">AIzaSyCVOvMSNN18_AJKQjfKfoWKxsYNF5GNxK0</string>
+    <string name="Payment">طريقه الدفع</string>
+    <string name="Cash">نقدي</string>
+    <string name="PayPal">الكتروني</string>
+    <string name="Credit">بطاقة إئتمان</string>
+    <string name="CheckOut">انهاء العمليه</string>
+
+    <string name="done_with_rating">تفعيل التقييم</string>
+    <string name="job_address">عنوان الوظيفة</string>
+    <string name="type_of_job">عنوان الوظيفة</string>
+    <string name="emp_name">job address</string>
+    <string name="my_previous_question">اسائلتي السابقة</string>
+
+    <string name="prev_questions">اسائلتي السابقة</string>
+
+    <string name="Update">تحديث</string>
+    <string name="work">عمل</string>
+
+
+
+    <string name="reply_questions">التعليقات</string>
+    <string name="add_your_reply">اضف ردك</string>
+    <string name="write_your_reply">اكتب تعليقك</string>
+    <string name="add">اضف</string>
+    <string name="reply_from">رد من : </string>
+    <string name="reply">الرد : </string>
+
+
+
+    <!--Facebook authentication-->
+    <!--    <string name="facebook_app_id">313952036784410</string>-->
+    <!--    <string name="fb_login_protocol_scheme">fb313952036784410</string>-->
+
+
+    <string name="selected_worker">اختر العامل المناسب</string>
+
+    <string name="accepted_job">الوظائف المتاحه لك</string>
+    <string name="previous_Job">المهمات السابقه</string>
+    <string name="profile">الملف الشخصى</string>
+
+
+    <string name="Next">التالى</string>
+
+
+
+
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        FCM registration token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+
+
+    <string name="nodata">No data available now</string>
+
+    <!--ShopOwner-->
+    <string name="shopName">اسم المحل</string>
+    <string name="shopOwner">صاحب محل</string>
+    <string name="all_shops">عرض جميع المحلات</string>
+    <string name="allShops">جميع المحلات</string>
+    <string name="products">المنتجات</string>
+    <string name="my_products">منتجاتي</string>
+    <string name="select_shop">اختار محل</string>
+    <string name="enterProductName">ادخل اسم المنتج</string>
+    <string name="enterPrice">ادخل سعر المنتج</string>
+    <string name="addDescOfProduct">اضف وصف للمنتج</string>
+    <string name="nameOfProduct">اسم المنتج :</string>
+    <string name="productName">اسم المنتج</string>
+    <string name="priceOfProduct">سعر المنتج   :</string>
+    <string name="productPrice">سعر المنتج</string>
+    <string name="productDescription">وصف المنتج</string>
+    <string name="logoutDialog">هل تريد الخروج ؟</string>
+
+    <!--Shops-->
+    <string name="electrical_shop">محلات ادوات كهربائية</string>
+    <string name="plumbing_shop">محلات ادوات صحية</string>
+    <string name="Carpentry_shop">محلات ادواات نجارة</string>
+    <string name="paint_shop">محلات مواد الطلاء</string>
+    <string name="tile_shop">محلات البلاط</string>
+    <string name="Building_tools_shop">محلات أدوات البناء</string>
+    <string name="metal_shop">محلات بيع المعدن</string>
+    <string name="Parquet_shop">متاجر باركيه</string>
+    <string name="gypsum_shop">محلات جبس</string>
+    <string name="marble_shop">محلات رخام</string>
+    <string name="Alumetal_shop">محلات الوميتال</string>
+    <string name="eyeglasses_shop">محلات نظارات</string>
+    <string name="wooden_tool_shop">محلات الأدوات الخشبية</string>
+    <string name="curtain_shop">محلات ستائر</string>
+    <string name="satellite_store">متاجر الأقمار الصناعية</string>
+    <string name="application_companies">شركات للتطبيقات</string>
+
+
+    <string name="distance">The Distance</string>
+
+
+
+
+
+
+
+    <string name="UserName">اسم المستخدم</string>
+    <string name="requestedusername">اسم المستخدم</string>
+    <string name="requestdesc">الوصف</string>
+    <string name="editusername">اسم المستخدم</string>
+    <string name="Cancel">الغاء</string>
+    <string name="Client_name">اسم العميل</string>
+    <string name="Client_phone">رقم العميل</string>
+    <string name="Worker_name">اسم العامل</string>
+    <string name="Worker_Name">اسم العامل</string>
+    <string name="worker_phone">رقم العامل</string>
+    <string name="w_category">فئه العامل</string>
+    <string name="MR_FIX_IT">MR.FIX.IT</string>
+    <string name="maintanance"><![CDATA["maintenance & repair "]]></string>
+    <string name="hard_work">عمل صعب</string>
+
+
+
+
+
+
+
+    <string name="Worker_rating_name">اسم العامل</string>
+    <string name="jobs_num">عدد المهن</string>
+    <string name="job">مهنة</string>
+    <string name="Likes">اعجاب</string>
+    <string name="dislike">عدم الاعجاب</string>
+    <string name="address_w">العنوان</string>
+    <string name="phone_w">الهاتف</string>
+    <string name="Accept">قبول</string>
+
+    <string name="All_pervious_questions">الاسئله السابقه</string>
+    <string name="Change_password">تغيير كلمه المرور</string>
+    <string name="Accept_details">التفاصيل</string>
+    <string name="Maintanance_repair">الصيانة والإصلاح</string>
+    <string name="description">الوصف</string>
+    <string name="hint_location">المزيد عن الموقع</string>
+    <string name="phone_details">تفاصيل الهاتف</string>
+    <string name="Time">الوقت</string>
+    <string name="time_hint">الوقت</string>
+    <string name="Date">التاريخ</string>
+    <string name="payment_hint">تفاصيل الدفع</string>
+    <string name="Phone_reset_pass">الهاتف لإعادة تعيين كلمة المرور</string>
+    <string name="add_phone">اضف الهاتف</string>
+    <string name="Previous_question">الاسئله السابقه</string>
+    <string name="comment_worker_hint">قيم العامل</string>
+    <string name="Receive_Code">تلقي الرمز</string>
+    <string name="Previous_btn">السابق </string>
+    <string name="Replay_to">الرد على :</string>
+    <string name="Question">الاسئله</string>
+    <string name="Are_you_sure_you_want_delete_item">هل تريد حذف العنصر؟</string>
+    <string name="Delete">حذف</string>
+    <string name="another_phone">هاتف اخر</string>
+    <string name="map">هل تريد فتح الخريطه ؟</string>
+    <string name="No">لا</string>
+    <string name="Yes">نعم</string>
+    <string name="caller">اسم المتصل</string>
+    <string name="income_call">مكالمة واردة</string>
+    <string name="Dismiss">رفض</string>
+    <string name="Start">بدأ</string>
+
+    <string name="done">تم</string>
+    <string name="accept_msg">انتظر العامل فى الموعد المحدد</string>
+    <string name="accept_worker_msg">انتظر الموافقه على طلبك</string>
+
+
+    <string name="oldpassword">كلمه السر القديمه</string>
+    <string name="add_your_comment">أضف تعليقك</string>
+    <string name="write_your_comment">اكتب تعليقك</string>
+    <string name="wrong">خطأ</string>
+    <string name="wrong_msg">لقد أصدرت بالفعل طلبًا لهذه الوظيفة </string>
+
+</resources>

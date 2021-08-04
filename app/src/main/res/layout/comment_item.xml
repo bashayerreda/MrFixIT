@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardMaxElevation="10dp"
+    android:elevation="10dp"
+    android:padding="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="20dp"
+    android:outlineAmbientShadowColor="@color/white"
+    app:cardElevation="4dp"
+    app:contentPadding="15dp">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reply_from"
+                android:textColor="@color/colorPurple"
+                android:fontFamily="@font/robotocndensed"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/phoneOfClient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                android:textColor="@color/black"
+                android:fontFamily="@font/robotocndensed"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotocndensed"
+                android:text="@string/Replay_to"
+                android:textColor="@color/colorPurple"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/phoneOfWorker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                android:textColor="@color/black"
+                android:fontFamily="@font/robotocndensed"
+                android:textSize="25dp"  />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotocndensed"
+                android:text="@string/reply"
+                android:textColor="@color/colorPurple"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/reply"
+                android:fontFamily="@font/robotocndensed"
+                android:textSize="25dp"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comment"
+                android:textColor="@color/colorPurple"
+                android:fontFamily="@font/robotocndensed"
+                android:textSize="25dp"/>
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comment"
+                android:textColor="@color/black"
+                android:fontFamily="@font/robotocndensed"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bcmodified"
+    tools:context=".Client.AllTypesOfShops.AllTypesOfShopsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/allShops"
+        android:textSize="35sp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/coolveticacompressedrg"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/electricity"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:textColor="@color/colorPurple"
+                android:text="@string/electrical_shop"/>
+
+            <Button
+                android:id="@+id/plumber"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textColor="@color/colorPurple"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:text="@string/plumbing_shop"/>
+
+            <Button
+                android:id="@+id/carpenter"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:text="@string/Carpentry_shop"/>
+
+            <Button
+                android:id="@+id/painter"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:text="@string/paint_shop"/>
+
+            <Button
+                android:id="@+id/tilesHandyman"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:text="@string/tile_shop"/>
+
+            <Button
+                android:id="@+id/mason"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:text="@string/Building_tools_shop"/>
+
+            <Button
+                android:id="@+id/smith"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:text="@string/metal_shop"/>
+
+            <Button
+                android:id="@+id/parquet"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:text="@string/Parquet_shop"/>
+
+
+            <Button
+                android:id="@+id/gypsum"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:text="@string/gypsum_shop"/>
+
+            <Button
+                android:id="@+id/marble"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:text="@string/marble_shop"/>
+
+            <Button
+                android:id="@+id/glasses"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:text="@string/eyeglasses_shop"/>
+
+            <Button
+                android:id="@+id/woodPainter"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:text="@string/wooden_tool_shop"/>
+
+            <Button
+                android:id="@+id/alumetal"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:text="@string/Alumetal_shop"/>
+
+            <Button
+                android:id="@+id/curtains"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:text="@string/curtain_shop"/>
+
+            <Button
+                android:id="@+id/satellite"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:textColor="@color/colorPurple"
+                android:text="@string/satellite_store"/>
+
+            <Button
+                android:id="@+id/Appliances"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/all_shops_shape"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@color/colorPurple"
+                android:fontFamily="@font/cool"
+                android:textSize="20dp"
+                android:text="@string/application_companies"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

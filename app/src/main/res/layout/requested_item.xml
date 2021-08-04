@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardMaxElevation="10dp"
+    android:elevation="10dp"
+    android:padding="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="20dp"
+    android:outlineAmbientShadowColor="@color/white"
+    app:cardElevation="4dp"
+    app:contentPadding="15dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp">
+
+        <LinearLayout
+            android:id="@+id/grd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/timec" />
+
+            <TextView
+                android:id="@+id/requested_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:text="1:34"
+                android:fontFamily="@font/robotocndensed"
+                android:textColor="@color/darkPurple"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:layout_marginLeft="70dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/robotocndensed"
+                android:src="@drawable/date" />
+
+            <TextView
+                android:id="@+id/requested_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2-8-2021"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/darkPurple"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/requested_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/robotocndensed"
+            android:text="@string/requestedusername"
+            android:textColor="@color/darkPurple"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grd" />
+
+
+        <TextView
+            android:id="@+id/requested_job_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/robotocndensed"
+            android:text="@string/category"
+            android:textColor="@color/darkPurple"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/requested_user_name" />
+
+        <TextView
+            android:id="@+id/requsted_kind_job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/robotocndensed"
+            android:text="@string/easy"
+            android:textColor="@color/darkPurple"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.003"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/requested_job_title" />
+
+        <TextView
+            android:id="@+id/requsted_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/robotocndensed"
+            android:text="@string/address"
+            android:textColor="@color/darkPurple"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/requsted_kind_job" />
+
+        <TextView
+            android:id="@+id/requsted_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/robotocndensed"
+            android:text="@string/phone"
+            android:textColor="@color/darkPurple"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/requsted_address" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/another_requsted_phone"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:fontFamily="@font/robotocndensed"-->
+<!--            android:text="@string/another_phone"-->
+<!--            android:textColor="@color/darkPurple"-->
+<!--            android:textSize="25dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/requsted_phone" />-->
+
+        <TextView
+            android:id="@+id/requested_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/robotocndensed"
+            android:text="@string/requestdesc"
+            android:textColor="@color/darkPurple"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/requsted_phone" />
+
+        <TextView
+            android:id="@+id/requested_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/robotocndensed"
+            android:text="@string/Payment"
+            android:textColor="@color/darkPurple"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/requested_desc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/requested_payment">
+
+
+            <Button
+                android:id="@+id/request_edit_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:background="@drawable/edit_btn" />
+
+            <Button
+                android:id="@+id/requested_prosess_btn"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/custom_button"
+                android:enabled="false"
+                android:text="@string/proccessing"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/request_delete_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/delete_icon" />
+
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

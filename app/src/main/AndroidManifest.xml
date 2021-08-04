@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fixawy">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bb"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fixawy">
+        <activity android:name=".Client.ClientSettingPage.ClientSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ShopOwner.Login.ShopOwnerLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ShopOwner.SignUp.ShopOwnerSignUPActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ShopOwner.ShowProducts.ShowProductsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ShopOwner.AddNewProduct.AddNewProductActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ShopOwner.VerifiyCode.ShopOwnerVerifiyCodeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ShopOwner.AllShopsAvailable.AllShopsAvailableActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.AllTypesOfShops.AllTypesOfShopsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.ShowProductsOfShopType.ShowProductsOfShopTypeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ShopOwner.ChangePassword.ChangePasswordSOActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ShopOwner.ForgetPassword.ForgetPasswordSOActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ShopOwner.VerifiyCode.ReceiveCodeSOActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.ReplyForMyQuestion.ReplyForMyQuestionActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Worker.JobAccepted.JobAcceptedActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Worker.MapActivity.MapActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.ReplyQuestions.AnswerActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Worker.WorkerQuestions.WorkerQuestionsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.AllPreviousQuestions.AllPreviousQuestionsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Worker.HomePageWorker.RequestedHomePageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Client.MakeOrder.ClientMakeOrder"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Client.MakeOrder.PaymentDetailsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Client.MakeOrder.CreditCardActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Client.MakeOrder.TestActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Client.SelectedPage.SelectedActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.AcceptedWorkerPage.AcceptedWorkActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Share.Homes.WorkerHome" android:screenOrientation="portrait"/>
+        <activity android:name=".Share.Homes.OwnerHome" android:screenOrientation="portrait"/>
+        <activity android:name=".Share.VerifyCode.ReceiveCode" android:screenOrientation="portrait"/>
+        <activity android:name=".Share.ChangePassword.ChangePassword" android:screenOrientation="portrait"/>
+        <activity android:name=".Share.ForgetPassword.ForgetPassword" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Tips" android:screenOrientation="portrait"/>
+        <activity android:name=".Worker.WorkerSettingPage.WorkerSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Worker.WorkerProfilePage.WorkerProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Worker.SelectJobPage.SelectJobActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Worker.ReplayQuestionsPage.ReplayQuestionActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Worker.HistoryJobsPage.HistoryJobActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Worker.DetailsJobPage.DetailsJobActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.ShowAllWorkerPage.ShowAllWorkerActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.SelectedSpecificWorkerPage.SelectedWorkerActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.RatingPage.RatingActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.PreviousQuestionPage.PreviousQuestionActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.HistoryPage.HistoryActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.EditPage.EditActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.AskQuestionPage.AskQuestionActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.RequestedPage.RequestedActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.SelectKindOfChoicePage.SelectKindOfChoiceActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Client.HomePageClient.HomePageClientActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Share.LoginPage.LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Share.VerifyCode.VerificationCode" android:screenOrientation="portrait"/>
+        <activity android:name=".Share.RegisterPage.RegisterActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Share.SelectionPage.SelectMembershipType" android:screenOrientation="portrait"/>
+
+        <service android:name=".reminder.MyService" /> <!-- <service -->
+        <!-- android:name=".Notification.FirebasePushNotification" -->
+        <!-- android:exported="false"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <service
+            android:name=".NotificationToClient.FirebasePushNotification"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+
+
+
+        <receiver
+            android:name=".reminder.MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <!--
+<activity android:name=".Share.SelectionPage.SelectMembershipType">
+
+
+        <activity android:name=".Share.SelectionPage.SelectMembershipType">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        -->
+        <activity android:name=".Share.SplashScreen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

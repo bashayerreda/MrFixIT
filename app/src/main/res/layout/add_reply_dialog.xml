@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:fontFamily="@font/coolveticacompressedrg"
+        android:text="@string/add_your_reply"
+        android:textColor="@color/colorPurple"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="12dp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+        <EditText
+            android:id="@+id/txt_addNoteDialog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/et_layout"
+            android:ems="10"
+            android:hint="@string/write_your_reply"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColorHint="@color/grey_font"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:fontFamily="@font/cool"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancelNoteDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:radius="80dp"
+            android:text="@string/cancel"
+            android:gravity="center"
+            android:fontFamily="@font/coolveticacompressedrg"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_addNoteDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:gravity="center"
+            android:radius="80dp"
+            android:text="@string/add"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/coolveticacompressedrg"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

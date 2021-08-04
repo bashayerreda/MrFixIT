@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Client.MakeOrder.FirstOrderFragment">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView_title">
+
+        <androidx.cardview.widget.CardView
+            android:background="@drawable/bcmodified"
+            android:id="@+id/card_view"
+         android:layout_marginTop="110dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            app:cardCornerRadius="20dp"
+            android:outlineAmbientShadowColor="@color/white"
+            app:cardElevation="4dp"
+            app:contentPadding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="40dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp"
+                    android:fontFamily="@font/coolveticacompressedrg"
+                    android:text="@string/ordertype"
+                    android:textColor="@color/darkPurple"
+                    android:textSize="35dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioOrder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/radio_short_work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:buttonTint="@color/black"
+                        android:text="@string/Maintenance" />
+
+                    <TextView
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/working" />
+
+
+                    <RadioButton
+                        android:id="@+id/radio_long_work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/black"
+                        android:text="@string/Job" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:textColor="@color/black"
+                        android:text="@string/littlework" />
+
+                </RadioGroup>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/more_details"
+                    android:layout_marginTop="15dp"
+                    android:textSize="35sp"
+                    android:textColor="@color/darkPurple"
+                    android:fontFamily="@font/coolveticacompressedrg"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <EditText
+                    android:id="@+id/edittext_view_addnotes"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/et_layout"
+                    android:gravity="start"
+                   android:hint="@string/comment_worker_hint"
+                    android:textColor="@color/colorPurple"
+                    android:inputType="textMultiLine"
+                    android:maxLines="50"
+                    android:padding="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/card_id" />
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+
+
+
+
+</FrameLayout>

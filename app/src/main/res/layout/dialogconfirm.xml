@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/text_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:fontFamily="@font/coolveticacompressedrg"
+        android:text="@string/map"
+        android:textColor="@color/colorPurple"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_logout"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:text="@string/No"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/coolveticacompressedrg"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text_yes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:text="@string/Yes"
+            android:textAlignment="center"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/white"
+            android:fontFamily="@font/coolveticacompressedrg"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
